@@ -2,11 +2,11 @@ provider "google" {
   # Path to GCP service account credentials
   credentials = file("terraform/terraform.tfvars")
   # Your GCP project ID
-  project     = "infrastructure-as-code-366522"
+  project = "infrastructure-as-code-366522"
   # Any region of your choice
-  region      = "us-east4"
+  region = "us-east4"
   # Any zone of your choice
-  zone       = "us-east4-a"
+  zone = "us-east4-a"
 }
 
 resource "google_compute_instance" "vm" {
