@@ -14,7 +14,7 @@ I will use VSCode to write the code and run the Terraform commands on a Windows 
 - Create a GCP project
 - Create a new repository on GitHub and clone it to your local machine
 - Open the project on VSCode and create a new folder called "terraform"
-- Open a terminal on VSCode or other window and change into the terraform folder
+- Open a terminal on VSCode or other terminal window and change into the terraform folder directory
 - Run the following command to initialize the terraform project
     ```**terraform init**```
 - Create a new file called "main.tf" and add the following code
